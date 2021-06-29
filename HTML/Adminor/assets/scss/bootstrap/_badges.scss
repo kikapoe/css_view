@@ -1,0 +1,250 @@
+/*-----Badges-----*/
+
+.btn .badge {
+	position: relative;
+	top: -1px;
+  }
+  
+  .badge-primary {
+	color: $white;
+	background: $primary;
+  
+	&[href] {
+	  &:hover, &:focus {
+		color: $white;
+		text-decoration: none;
+		background-color: #6b3e9e;
+	  }
+	}
+  }
+  
+  .badge-secondary {
+	color: $white;
+	background: $darkblue !important;
+  
+	&[href] {
+	  &:hover, &:focus {
+		color: $white;
+		text-decoration: none;
+		background: #f66b4e;
+	  }
+  
+	  &:hover {
+		color: $white;
+		text-decoration: none;
+		background: linear-gradient(to bottom right, #fd9220 0%, #f66b4e 100%) !important;
+	  }
+	}
+  }
+  
+  .badge-gradient-secondary[href]:focus {
+	color: $white;
+	text-decoration: none;
+	background: linear-gradient(to bottom right, #fd9220 0%, #f66b4e 100%) !important;
+  }
+  
+  .badge-success {
+	color: $white;
+	background: linear-gradient(to bottom right, #62fb62, #21a544) !important;
+  
+	&[href] {
+	  &:hover, &:focus {
+		color: $white;
+		text-decoration: none;
+		background-color: #448700;
+	  }
+	}
+  }
+  
+  .badge-gradient-success {
+	color: $white;
+	background: linear-gradient(to bottom right, #62fb62, #21a544) !important;
+  
+	&[href] {
+	  &:hover, &:focus {
+		color: $white;
+		text-decoration: none;
+		background: linear-gradient(to bottom right, #5cf55c, #1d983e) !important;
+	  }
+	}
+  }
+  
+  .badge-info {
+	color: $white;
+	background: linear-gradient(to bottom right, #00f2fe 0%, #1e63c3 100%) !important;
+  
+	&[href] {
+	  &:hover, &:focus {
+		color: $white;
+		text-decoration: none;
+		background-color: #1594ef;
+	  }
+	}
+  }
+  
+  .badge-gradient-info {
+	color: $white;
+	background: linear-gradient(to bottom right, #00f2fe 0%, #1e63c3 100%) !important;
+  
+	&[href] {
+	  &:hover, &:focus {
+		color: $white;
+		text-decoration: none;
+		background: linear-gradient(to bottom right, #05ebf6 0%, #205fb6 100%) !important;
+	  }
+	}
+  }
+  
+  .badge-warning {
+	color: $white;
+	background: linear-gradient(to bottom right, #f1d313 0%, #FBB034 100%) !important;
+  
+	&[href] {
+	  &:hover, &:focus {
+		color: $white;
+		text-decoration: none;
+		background-color: #c29d0b;
+	  }
+	}
+  }
+  
+  .badge-gradient-warning {
+	color: $white;
+	background: $darkblue !important;
+  
+	&[href] {
+	  &:hover, &:focus {
+		color: $white;
+		text-decoration: none;
+		background: linear-gradient(to bottom right, #ecb831 0%, #eb6448 100%) !important;
+	  }
+	}
+  }
+  
+  .badge-danger {
+	color: $white;
+	background: $danger;
+  
+	&[href] {
+	  &:hover, &:focus {
+		color: $white;
+		text-decoration: none;
+		background-color: #a11918;
+	  }
+	}
+  }
+  
+  .badge-gradient-danger {
+	color: $white;
+	background-color: #990000;
+	background-image: $danger;
+  
+	&[href]:hover {
+	  color: $white;
+	  text-decoration: none;
+	  background-color: #990000;
+	  background-image: linear-gradient(to bottom right, #8f0101 0%, #f90404 100%);
+	}
+  }
+  
+  .badge-danger[href]:focus {
+	color: $white;
+	text-decoration: none;
+	background-color: #990000;
+	background-image: linear-gradient(to bottom right, #8f0101 0%, #f90404 100%);
+  }
+  
+  .badge-light {
+	color: #495057;
+	background-color: #f8f9fa;
+  
+	&[href] {
+	  &:hover, &:focus {
+		color: #495057;
+		text-decoration: none;
+		background-color: #dae0e5;
+	  }
+	}
+  }
+  
+  .badge-dark {
+	color: $white;
+	background-color: $darkgray;
+  
+	&[href] {
+	  &:hover, &:focus {
+		color: $white;
+		text-decoration: none;
+		background-color: #1d2124;
+	  }
+	}
+  }
+  
+  .badge {
+	display: inline-block;
+	padding: 0.25em 0.4em;
+	font-size: 100%;
+	font-weight: 300;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 3px;
+  }
+  
+  .badge-pill {
+	padding-right: .6em;
+	padding-left: .6em;
+	border-radius: 10rem;
+  }
+  
+  .badgetext {
+	float: right;
+  }
+  
+  .badge-default {
+	background: rgba(239, 238, 238, 0.7);
+	color: #898989;
+  }
+  
+  .badge-gradient-default {
+	background: linear-gradient(to bottom right, #efeeee 0%, #d1cfcf 100%) !important;
+	color: #898989;
+  }
+  
+  @media print {
+	.badge {
+	  border: 1px solid $black
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.badge {
+	  margin: 10px 0;
+	}
+  }
+  
+  .label-size {
+	font-size: 3.8em;
+	margin-left: 9px;
+  }
+  
+  .label-font-size {
+	font-size: 1.8em;
+  }
+  
+  .label-medium-size {
+	font-size: 1.2em;
+  }
+  
+  .labels li {
+	display: inline;
+  }
+  
+  .label-title {
+	font-size: 1.125rem;
+  }
+  
+  .label-font {
+	font-size: 0.8em;
+  }

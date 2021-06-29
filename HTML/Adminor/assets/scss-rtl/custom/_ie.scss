@@ -1,0 +1,63 @@
+*::-ms-backdrop, .circle-icon .card-img-absolute {
+	margin-left: 0;
+  }
+  
+  *::-ms-backdrop, .media-body, .media-left, .media-right {
+	display: block;
+  }
+  
+  *::-ms-backdrop, .card-img-top {
+	height: 235px;
+  }
+  
+  *::-ms-backdrop, .profile-user-info tbody {
+	width: 100%;
+	display: block;
+  }
+  
+  *::-ms-backdrop, .card-table .dropdown-menu {
+	min-width: 100px !important;
+  }
+  
+  *::-ms-backdrop, .mail-chats {
+	display: block !important;
+	margin-top: 15px !important;
+  }
+  
+  *::-ms-backdrop, .page-single {
+	display: ruby;
+  }
+  
+  *::-ms-backdrop, .login-img.page-construction {
+	display: flex;
+  }
+  *::-ms-backdrop, html.fullscreeie{
+    width:100%;
+  }
+  *::-ms-backdrop, html.fullscreeie .horizontalMenucontainer{
+    overflow:scroll;
+    overflow-x:hidden;
+    height:100vh;
+  }
+  *::-ms-backdrop, html.fullscreeie .app-content{
+    overflow:scroll;
+    overflow-x:hidden;
+    height:100vh;
+  }
+  @media only screen and (min-width: 992px) {
+	*::-ms-backdrop, .card-about-img {
+	  height: 187px;
+	}
+  }
+  
+  @media only screen and (max-width: 991px) {
+	*::-ms-backdrop, .card-about-img {
+	  height: 230px;
+	}
+  }
+  
+  @media (min-width: 991px) {
+	*::-ms-backdrop, .sticky-pin {
+	  position: -ms-device-fixed;
+	}
+  }

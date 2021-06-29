@@ -1,0 +1,178 @@
+@media (max-width: 480px) {
+	.cal1 .clndr .clndr-table tr {
+	  height: 50px !important;
+	}
+  }
+  
+  .cal1 {
+	.clndr {
+	  .clndr-table {
+		.header-days {
+		  .header-day {
+			border-left: 1px solid #e2e3e4;
+			border-top: 1px solid #e2e3e4;
+		  }
+  
+		  background: #6b3e9e;
+		}
+  
+		tr {
+		  .empty, .adjacent-month, .my-empty, .my-adjacent-month {
+			border-left: 1px solid #dfdbe2;
+			border-top: 1px solid #dfdbe2;
+			background: #eeeff1;
+		  }
+  
+		  .day {
+			&.event, &.my-event {
+			  background: #efecf5;
+			}
+  
+			&.today.event, &.my-today.event {
+			  background: #6b3e9e;
+			}
+  
+			border-left: 1px solid #dfdbe2;
+			border-top: 1px solid #dfdbe2;
+  
+			&:last-child {
+			  border-right: 1px solid #dfdbe2;
+			}
+  
+			&:hover {
+			  background: #efecf5;
+			}
+		  }
+		}
+	  }
+  
+	  .clndr-controls .clndr-control-button {
+		.clndr-previous-button {
+		  color: $white;
+		  background: #6b3e9e;
+		}
+  
+		.clndr-next-button {
+		  color: $white;
+		  background: #6b3e9e;
+  
+		  &:hover {
+			background: #6b3e9e;
+		  }
+		}
+  
+		.clndr-previous-button:hover {
+		  background: #6b3e9e;
+		}
+	  }
+  
+	  .clndr-table tr {
+		.day {
+		  &.today, &.my-today {
+			background: #6b3e9e;
+		  }
+  
+		  &.today:hover, &.my-today:hover {
+			background: #8742c7;
+		  }
+		}
+  
+		.empty:hover, .adjacent-month:hover, .my-empty:hover, .my-adjacent-month:hover {
+		  background: #efecf5;
+		}
+	  }
+	}
+  
+	font-size: 14px;
+  }
+  
+  .fc button {
+	background: #6b3e9e;
+	color: $white
+  }
+  
+  .fc-unthemed {
+	.fc-content, .fc-divider, .fc-list-heading td, .fc-list-view, .fc-popover, .fc-row, tbody, td, th, thead {
+	  border-color: rgba(238, 238, 238, 1);
+	}
+  }
+  
+  .fc-event {
+	border: 1px solid #6b3e9e;
+	background-color: #6b3e9e;
+	color: #f1f1f1 ! important;
+  }
+  
+  .fc-event-dot {
+	background-color: #6b3e9e;
+	color: #f1f1f1 ! important;
+  }
+  
+  .fc-unthemed {
+	.fc-divider, .fc-list-heading td, .fc-popover .fc-header {
+	  background: #e2e3e4;
+	}
+  }
+  
+  .fc-toolbar {
+	.fc-state-active, .ui-state-active {
+	  background: #ac91c3;
+	  color: $white
+	}
+  }
+  
+  .fc-today-button fc-button fc-state-default fc-corner-left fc-corner-right fc-state-disabled:focus {
+	border: none !important;
+	box-shadow: none !important;
+  }
+  
+  .fc-unthemed .fc-list-item:hover td {
+	background-color: #eeeeee;
+  }
+  
+  @media (max-width: 320px) {
+	.fc-toolbar .fc-right {
+	  float: right;
+	  width: 100%;
+	  text-align: center;
+	  margin: 10px 0;
+	}
+  }
+  
+  .fc-toolbar:before, .login-content:after {
+	content: "";
+  }
+  
+  .main-nav-calendar-event .nav-link.exclude {
+	color: #737688;
+	position: relative;
+	width: 100%;
+  
+	&::before {
+	  content: '';
+	  position: absolute;
+	  top: 50%;
+	  left: 0;
+	  right: 0;
+	  border-top: 1px solid #737688;
+	}
+  
+	i {
+	  color: #737688;
+	}
+  }
+  
+  .main-nav-column .nav-link + .nav-link {
+	border-top: 1px solid #d6d9e0;
+	width: 100%;
+  }
+  
+  .main-nav-calendar-event .nav-link {
+	font-size: 14px;
+	position: relative;
+	color: $black
+  }
+
+  .cal1 .clndr .clndr-controls .clndr-control-button.rightalign {
+    text-align: left !important;
+}

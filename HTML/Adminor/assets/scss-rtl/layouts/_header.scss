@@ -1,0 +1,143 @@
+@media (max-width: 480px) {
+	.app-header .header-brand, .app-header1 .header-brand {
+	  min-width: auto;
+	  margin-top: 6px;
+	}
+  
+	.header-right-icons .dropdown .header-toggler {
+	  margin-top: 9px;
+	}
+  
+	.header-brand {
+	  line-height: 2.5rem !important;
+	}
+  }
+  
+  @media (max-width: 767px) {
+	.header-brand {
+	  line-height: 2.7rem;
+	}
+  
+	.header .input-icon.mt-2 {
+	  margin-top: 5px !important;
+	}
+  
+	.header-right-icons a {
+	  margin-top: -6px;
+	}
+
+  }
+  
+  @media (max-width: 992px) {
+	.app.sidebar-mini .header-right-icons.header-search-icon{
+		margin-top: 6px;
+	}
+	.header {
+	  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	  padding-top: .25rem;
+	  padding-bottom: .25rem;
+	}
+  
+	.header-right-icons a {
+	  margin-top: -6px;
+	}
+  
+	.header-brand {
+	  line-height: 2.5rem;
+	}
+  
+	.header {
+	  .input-icon-addon {
+		display: none;
+	  }
+  
+	  position: fixed !important;
+	  z-index: 100000;
+	  background: linear-gradient(to right, #9853af, #623AA2);
+	  width: 100%;
+	}
+	.header.bg-primary {
+		position: inherit !important;
+		z-index: 0;
+	}
+	.page-header {
+	  &.active {
+		margin-top: 1rem;
+	  }
+  
+	  margin-top: 4rem;
+	}
+  
+	.sticky-pin.fixed-header {
+	  position: relative !important;
+	}
+  
+	.fixed-header {
+	  position: relative !important;
+	  right: 0;
+	  left: 0;
+	  margin: 0 auto;
+	  z-index: 10;
+	}
+  
+	.page-header {
+	  background: rgba(88, 8, 115, 0.9);
+	  border-radius: 5px;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.header .input-icon {
+	  display: none;
+	}
+  }
+  
+  @media (max-width: 990px) {
+	.header-toggler {
+	  top: 6px;
+	}
+  }
+  
+  .fixed-header {
+	position: fixed !important;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	z-index: 9999;
+  
+	&.visible-title {
+	  top: 0;
+  
+	  &.admin-navbar .nav {
+		background: rgba(88, 8, 115, 9);
+		box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
+		margin-top: 1px;
+	  }
+	}
+  }
+  
+  @media print {
+	.header {
+	  display: none;
+	}
+  }
+  
+  .header {
+	.nav-link .badge, .nav-item .badge {
+	  position: absolute;
+	  top: 4px;
+	  left: 4px;
+	  padding: .2rem .25rem;
+	  min-width: 1rem;
+	  font-size: 13px;
+	}
+  }
+  
+  #headerMenuCollapse {
+	.nav-link .badge, .nav-item .badge {
+	  position: relative;
+	  min-width: 1rem;
+	  font-size: 10px;
+	  font-weight: 500;
+	}
+  }

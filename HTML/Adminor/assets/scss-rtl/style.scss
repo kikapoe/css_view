@@ -1,0 +1,167 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project        :   Adminor-Bootstrap HTML Admin Template
+Version        :   V.2
+Updated Date   :   29/01/21
+Copyright      :   Spruko Technologies Private Limited 
+Author         :   SprukoSoft
+Author URL     :   https://themeforest.net/user/sprukosoft
+Support	       :   support@spruko.com
+License        :   Licensed under ThemeForest License
+
+-------------------------------------------------------------------*/
+
+/*
+1.  Accordions
+2.  Alerts
+3.  Badges
+4.  Breadcrumbs
+5.  Buttons
+6.  Card
+7.  Carousel
+8.  Dropdown
+9.  Forms
+10. Grid
+11. Input-group
+12. Modals
+13. Navigation
+14. Pagination
+15. Popover
+16. Progress
+17. Tables
+18. Toast
+19. Tooltip
+20. Tabs
+21. Main-content
+22. Header
+23. Horizontal-menu
+24. Profile
+25. Iconbar
+26. Datatable
+27. Date-picker
+28. Date-time-picker
+29. Jqvmap
+30. Chart
+31. Parsely
+32. Rangeslider
+33. Select2
+34. Spectrum
+35. Calendar
+36. Chat
+37 Contacts
+38. Error
+39. Invoice
+40. Mail
+41. Profile
+42. Background
+43. Border
+44. Height
+45. Margin
+46. Opacity
+47. Padding
+48. Position
+49. Typography
+50. Width
+51. Tags
+52. Navbar
+53. Wizard
+54. P-scroll
+55. Rating
+56. Timeline
+57. Countdown
+58. Image
+59. List
+60. Checkbox
+61  Radio
+62. Toggle
+63  Listgroup
+64  Jumborton
+65  Custom-control
+66  Custom-styles
+67  Tabs
+*/
+
+/* ######## FONT ######## */
+@import "custom/fonts/fonts";
+
+
+/* ######## BOOTSTRAP ######## */ 
+@import "variables";
+@import "bootstrap/accordion";
+@import "bootstrap/alerts";
+@import "bootstrap/avatars";
+@import "bootstrap/badges";
+@import "bootstrap/bootstrap";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/buttons";
+@import "bootstrap/carousel";
+@import "bootstrap/dropdown";
+@import "bootstrap/grid";
+@import "bootstrap/jumbotron";
+@import "bootstrap/list";
+@import "bootstrap/modal";
+@import "bootstrap/navigation";
+@import "bootstrap/panel";
+@import "bootstrap/product";
+@import "bootstrap/progress";
+@import "bootstrap/tags";
+@import "bootstrap/thumbnail";
+@import "bootstrap/tooltip&popover";
+@import "bootstrap/typhography";
+@import "bootstrap/video";
+
+/*  ######## COMPONENTS ######## */ 
+@import "components/calendar";
+@import "components/chat";
+@import "components/rangeslider";
+@import "components/rating";
+@import "components/tabs";
+
+
+/* ######## CUSTOM ######## */
+@import "custom/custom";
+@import "custom/custom-styles";
+@import "custom/email";
+@import "custom/feather-icons";
+@import "custom/icon-list";
+@import "custom/ie";
+@import "custom/loader";
+@import "custom/tables";
+@import "custom/timeline";
+@import "custom/vectormap";
+@import "custom/widgets";
+
+/* ######## FORMS ######## */
+@import "forms/custom-control";
+@import "forms/date-picker";
+@import "forms/form-elements";
+@import "forms/form-wizard";
+@import "forms/input-group";
+@import "forms/select2";
+@import "forms/select-group";
+@import "forms/selectize";
+
+/* ######## LAYOUTS ######## */
+@import "layouts/admin-navbar";
+@import "layouts/alignments";
+@import "layouts/backgrounds";
+@import "layouts/cards";
+@import "layouts/header";
+@import "layouts/horizontal-menu";
+@import "layouts/weather-card";
+
+/* ######## PAGES ######## */
+@import "pages/gallery";
+@import "pages/pricing";
+@import "pages/profile";
+
+/* ######## UTILITIES-STYLES ######## */
+@import "util/border";
+@import "util/height";
+@import "util/margin";
+@import "util/padding";
+@import "util/width";
+
+
+

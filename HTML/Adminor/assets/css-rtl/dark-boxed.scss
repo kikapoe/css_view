@@ -1,0 +1,52 @@
+@media (min-width: 992px) {
+	body.dark-theme {
+	  background-color: #3f334a !important;
+	}
+	.dark-theme {
+		.page {
+		width: 1170px;
+		margin: 0 auto;
+		position: relative;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: flex;
+		-ms-flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		flex-direction: column;
+		-ms-flex-pack: center;
+		-webkit-box-pack: center;
+		min-height: 100vh;
+		box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 0px 0px, rgba(0, 0, 0, 0.3) 0px 5px 25px 0px;
+		background-color: #2e2639;
+		}
+	
+		.page-main {
+		z-index: 0;
+		}
+	
+	
+		.hor-menu.horizontal-main {
+		max-width: 1170px;
+		}
+	
+		.container {
+		padding-right: 0.75rem;
+		padding-left: 0.75rem;
+		}
+	
+		.horizontalMenu > .horizontalMenu-list > li > a {
+		padding: 0.80rem 1.30rem !important;
+		}
+	
+		.app-sidebar {
+		right: auto !important;
+		}
+	
+		.app-header {
+		max-width: 1170px;
+		left: auto !important;
+		right: auto !important;
+		}
+	}
+  }
